@@ -16,7 +16,7 @@ In this repository, you will find:
 - [VRP Problem Data](#vrps) for the competition
 - [API evaluator](#api) (available soon!)
 
-## VRP Problem Data {#vrps}
+## <a id='vrps'>VRP Problem Data </a>
 ### CVRP Instances
 <!-- >> **_NOTE: about problem instances_**  
 > 1. To decide which CVRP instances to include. Too many instances - too large the submission? 
@@ -36,7 +36,7 @@ In the VRPTW track, the competition will conduct evaluation of the submitted sol
 
 All VRPTW instances are available to download on the [Instances_VRPTW folder](https://github.com/Ambergogoal/ML4VRP_resources/tree/main/Instances_VRPTW) of this repo.
 
-## API Evaluator {#api}
+## <a id='api'>API Evaluator </a>
 API evaluator with instructions to evaluate the solutions (available soon!)
  
 
