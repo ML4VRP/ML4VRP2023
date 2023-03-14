@@ -18,7 +18,7 @@ In this repository, you will find:
 
 ## VRP Problem Data {#vrps}
 ### CVRP Instances
-<!-->> **_NOTE: about problem instances_**  
+<!-- >> **_NOTE: about problem instances_**  
 > 1. To decide which CVRP instances to include. Too many instances - too large the submission? 
 > [Related competition](http://dimacs.rutgers.edu/programs/challenge/vrp/cvrp/) uses 141 instances.-->
 
