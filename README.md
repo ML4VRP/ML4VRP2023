@@ -45,7 +45,9 @@ API evaluator with instructions to evaluate the solutions (available soon)
 
 # Organisers
 Rong Qu,         University of Nottingham, UK, rong.qu@nottingham.ac.uk
+
 Nelishia Pillay, University of Pretoria, South Africa, nelishia.pillay@up.ac.za
+
 Weiyao Meng, University of Nottingham, UK, weiyao.meng2@nottingham.ac.uk
 
 
