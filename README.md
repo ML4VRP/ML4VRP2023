@@ -17,7 +17,7 @@ The competition will conduct evaluation of the submitted solution results using 
 - The 56 instances of Solomon [Sol87], each containing 100 customers.
 - The 120 instances of Homberger and Gehring [HG99], ranging from 200 to 400 customers.
 
-All VRPTW instances are available to download on the folder [Instances](https://github.com/Ambergogoal/ML4VRP_resources/tree/main/Instances_VRPTW) of this repo.
+All VRPTW instances are available to download on the folder [Instances](https://github.com/ML4VRP2023/ML4VRP2023/tree/main/Instances) of this repo.
 
 ## <a id='api'>API Evaluator </a>
 API evaluator with instructions to evaluate the solutions will be available soon!
