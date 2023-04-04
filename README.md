@@ -60,21 +60,22 @@ https://github.com/iRB-Lab/py-ga-VRPTW-->
 A Python Implementation of a solution evaluator to VRPTW. 
 
 ### How to start
-Let's prepare the environment and the Python interface to work.
-1. Download the resources in the repository. Note the `Instances/` directory where **text file format** and **JSON file format** of the problem instances are needed.
-2. Install `Python 3.9`.
+Let's prepare the environment and download the resources to work.
+1. Download/clone the resources in the repository. Note the `Instances/` directory where **text file format** and **JSON file format** of the problem instances are needed.
+2. Install `Python 3`.
 3. Install the [DEAP](https://github.com/deap/deap) framework in Python.
 4. Prepare the solution files in the specific format as described in the [competition website](https://sites.google.com/view/ml4vrp#h.j2mwimqjm1ge).
 
-The Python script `evaluator.py` is the solution evaluation program to VRPTW. It will do two things: 
+The Python script `evaluator.py` is the solution evaluation program to use. The solution evaluator takes a solution and the corresponding problem instance to
 - check feasibility of the solution,
-- print out solution quality (including the objective function value, number of routes, and the total travel distance) for feasible solution.
+- calculate the objective function value of the solution (following the objective function as stated on the [competition website](https://sites.google.com/view/ml4vrp#h.8tn33nmddfdh)) for feasible solution.
 
 ### Usage example
 Navigating to the repository directory, use the following command in the terminal or command prompt:
 ```sh
 python evaluator.py <instance_size> <instance_name> <path_to_solution_file>
 ```
+- ```instance_size```: the size of the instance. 
 
 ### Example
 We provide an example problem instance `toy`, locating at 
