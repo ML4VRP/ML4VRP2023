@@ -61,7 +61,9 @@ The JSON files are converted from the **text file format** by `text2json.py` Pyt
 <!--http://dimacs.rutgers.edu/files/8516/3848/0275/VRPTW_Competition_Rules.pdf
 https://github.com/iRB-Lab/py-ga-VRPTW-->
 
-A Python Implementation of a solution evaluator to VRPTW. 
+The Python script `evaluator.py` is the solution evaluation program to use. The solution evaluator takes a solution and the corresponding problem instance to
+- check feasibility of the solution,
+- calculate the objective function value of the solution (following the objective function as stated on the [competition website](https://sites.google.com/view/ml4vrp#h.8tn33nmddfdh)) for feasible solution.
 
 ### How to start
 Let's prepare the environment and download the resources to work.
@@ -69,10 +71,6 @@ Let's prepare the environment and download the resources to work.
 2. Install `Python 3`.
 3. Install the [DEAP](https://github.com/deap/deap) framework in Python.
 4. Prepare the solution files in the specific format as described in the [competition website](https://sites.google.com/view/ml4vrp#h.j2mwimqjm1ge).
-
-The Python script `evaluator.py` is the solution evaluation program to use. The solution evaluator takes a solution and the corresponding problem instance to
-- check feasibility of the solution,
-- calculate the objective function value of the solution (following the objective function as stated on the [competition website](https://sites.google.com/view/ml4vrp#h.8tn33nmddfdh)) for feasible solution.
 
 ### Usage example
 Navigating to the repository directory, use the following command in the terminal or command prompt:
