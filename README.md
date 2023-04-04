@@ -23,13 +23,17 @@ The provided problem instances provided are randomly selected from these three s
 
 The problem instances provided in the competition are available to download on the folder [Instances](https://github.com/ML4VRP2023/ML4VRP2023/tree/main/Instances) of this repo. All the VRPTW instances can also be found in [CVRPLIB](http://vrp.galgos.inf.puc-rio.br/index.php/en/). 
 
+In addition to the benchmark VRPTW instances, we provide an example problem instance `toy`, locating at 
+- `Instances/text/Customer6/toy.txt` and 
+- `Instances/json/Customer6/toy.json`. 
+
 ### Text File Format
 The text files corresponding to the problem instances can be found under the `Instances/text/` directory. Each text file is named with respect to its corresponding instance name, e.g.: the text file corresponding to problem instance **C102** is `C102.txt`, and locates at `Instances/text/Customer100/C101.txt` since the instance size (number of customers) is 100.
 
 See [Solomon's website](http://web.cba.neu.edu/~msolomon/problems.htm) for the detailed instance description. 
 
-Below is a description of the format of the text file that defines each problem instance (assuming 100 customers).
-<!--
+<!--Below is a description of the format of the text file that defines each problem instance (assuming 100 customers).
+
 ```
 <Instance name>
 <empty line>
@@ -75,13 +79,8 @@ Navigating to the repository directory, use the following command in the termina
 ```sh
 python evaluator.py <instance_size> <instance_name> <path_to_solution_file>
 ```
-- ```instance_size```: the size of the instance. 
 
 ### Example
-We provide an example problem instance `toy`, locating at 
-- `Instances/text/Customer6/toy.txt` and 
-- `Instances/json/Customer6/toy.json`. 
-
 Solutions for solving `toy` are provided in `Solutions/` directory. 
 - The solution file `toy_solution.txt` gives a feasible solution (in terms of the time window and vehicle capacity constraints).
 - The solution file `toy_solution_wrong.txt` provides an invalid solution. 
