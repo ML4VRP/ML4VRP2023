@@ -53,7 +53,7 @@ The JSON files corresponding to the problem instances can be found under the `In
 **Remarks:**
 The JSON files are converted from the **text file format** by `text2json.py` Python script from the [iRB-Lab's repository](https://github.com/iRB-Lab/py-ga-VRPTW). See [iRB-Lab's repository](https://github.com/iRB-Lab/py-ga-VRPTW#json-format) for the detailed description of the JSON file format. 
 
-## <a id='api'>API Evaluator </a>
+## <a id='api'>VRPTW Solution Evaluator </a>
 <!--http://dimacs.rutgers.edu/files/8516/3848/0275/VRPTW_Competition_Rules.pdf
 https://github.com/iRB-Lab/py-ga-VRPTW-->
 
