@@ -98,7 +98,7 @@ Objective function value:  2153.8226859041124
 Number of vehicles:  2 , Total distance:  153.82268590411263
 ```
 #### Evaluation of infeasible solutions
-To evaluate `toy_solution_wrong`, run:
+To evaluate `toy_solution_infeasible`, run:
 ```sh
 python evaluator.py 6 toy Solutions/toy_solution_infeasible.txt
 ```
