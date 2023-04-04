@@ -83,7 +83,7 @@ python evaluator.py <instance_size> <instance_name> <path_to_solution_file>
 ### Example
 Solutions for solving `toy` are provided in `Solutions/` directory. 
 - The solution file `toy_solution.txt` gives a feasible solution (in terms of the time window and vehicle capacity constraints).
-- The solution file `toy_solution_wrong.txt` provides an invalid solution. 
+- The solution file `toy_solution_infeasible.txt` provides an invalid solution. 
 
 #### Evaluation of feasible solutions
 To evaluate `toy_solution`, run:
@@ -100,11 +100,11 @@ Number of vehicles:  2 , Total distance:  153.82268590411263
 #### Evaluation of infeasible solutions
 To evaluate `toy_solution_wrong`, run:
 ```sh
-python evaluator.py 6 toy Solutions/toy_solution_wrong.txt
+python evaluator.py 6 toy Solutions/toy_solution_infeasible.txt
 ```
 The infeasible solution cannot pass the feasibility check, thus no objective function value will be returned. The output is (similar to) as shown below:
 ```sh
-Instance size:  6  Instance name:  toy  Solution path:  toy_solution_wrong.txt
+Instance size:  6  Instance name:  toy  Solution path:  toy_solution_infeasible.txt
 File: .../Instances/json/Customer6/toy.json exists.
 invalid capacity
 invalid time window: too late to serve customer 6
