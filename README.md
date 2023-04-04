@@ -67,7 +67,7 @@ The Python script `evaluator.py` is the solution evaluation program to use. The 
 
 ### How to start
 Let's prepare the environment and download the resources to work.
-1. Download/clone the resources in the repository. Note the `Instances/` directory where **text file format** and **JSON file format** of the problem instances are needed.
+1. Download/clone the whole repository. Note the `Instances/` directory where **text file format** and **JSON file format** of the problem instances are needed.
 2. Install `Python 3`.
 3. Install the [DEAP](https://github.com/deap/deap) framework in Python.
 4. Prepare the solution files in the specific format as described in the [competition website](https://sites.google.com/view/ml4vrp#h.j2mwimqjm1ge).
