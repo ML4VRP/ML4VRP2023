@@ -150,7 +150,7 @@ Nelishia Pillay, University of Pretoria, South Africa, nelishia.pillay@up.ac.za
 
 Weiyao Meng, University of Nottingham, UK, weiyao.meng2@nottingham.ac.uk
 
-Please contact [Weiyao Meng](weiyao.meng2@nottingham.ac.uk) in case of any problems or if you require help for the problem instances and the solution evaluator in this repository.
+Please contact **Weiyao Meng** in case of any problems or if you require help for the problem instances and the solution evaluator in this repository.
 
 ## References
 [HG99] J. Homberger and H. Gehring, "Two evolutionary metaheuristics for the vehicle routing problem with time windows," INFOR: Information Systems and Operational Research, 37(3):297–318, 1999. [PDF](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=a34e12bf0a30deb56233c26d82a0979987bb6ce4)
