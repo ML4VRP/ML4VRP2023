@@ -21,7 +21,7 @@ def main(instance_size,instance_name,solution_path):
         print("Objective function value: ", objective)
         print("Number of vehicles: ", nv, ", Total distance: ", td)
     else:
-        print("Please upload a valid solution!")
+        print("Please upload a feasible solution!")
 if __name__ == '__main__':
     if len(sys.argv) < 4:
         print("Error: Please provide arguments as stated in README.")
