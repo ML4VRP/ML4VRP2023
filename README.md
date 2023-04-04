@@ -85,10 +85,6 @@ Solutions for solving `toy` are provided in `Solutions/` directory.
 - The solution file `toy_solution.txt` gives a feasible solution (in terms of the time window and vehicle capacity constraints).
 - The solution file `toy_solution_wrong.txt` provides an invalid solution. 
 
-To evaluate this solution, use the following command in the terminal or command prompt:
-```sh
-python evaluator.py <instance_size> <instance_name> <path_to_solution_file>
-```
 #### Evaluation of feasible solutions
 To evaluate `toy_solution`, run:
 ```sh
