@@ -12,43 +12,6 @@ In this repository, you will find:
 - [VRPTW Problem Data](#vrps) for the competition
 - [VRPTW Solution Evaluator](#api)
 
-## File Structure
-```
-├── Instances/
-│   ├── json/
-│   │   ├── Customer100
-│   │   │   ├──<Instance name>.json
-│   │   │   └── ...
-│   │   ├── Customer200
-│   │   │   ├──<Instance name>.json
-│   │   │   └── ...
-│   │   ├── Customer400
-│   │   │   ├──<Instance name>.json
-│   │   │   └── ...
-│   ├── text/
-│   │   ├── Customer100
-│   │   │   ├──<Instance name>.txt
-│   │   │   └── ...
-│   │   ├── Customer200
-│   │   │   ├──<Instance name>.txt
-│   │   │   └── ...
-│   │   ├── Customer400
-│   │   │   ├──<Instance name>.txt
-│   │   │   └── ...
-├── vrptw_evaluator/
-│   ├── __init__.py
-│   ├── core.py
-│   └── utils.py
-├── evaluator.py
-├── Solutions
-│   ├── toy_solution.txt
-│   ├── toy_solution_wrong.txt
-├── requirements.txt
-├── README.md
-├── LICENSE
-└── logo.png
-```
-
 ## <a id='vrps'>VRPTW Problem Data </a>
 Solomon [Sol87] dataset and Homberger and Gehring [HG99] data set are widely studied VRPTW benchmark data sets. Both data sets consist of [six types of instances](http://web.cba.neu.edu/~msolomon/problems.htm), i.e., C1, C2, R1, R2, RC1, RC2, which differ with respect to the customers’ geographical locations, vehicle capacity, density and tightness of the time windows. 
 
@@ -150,6 +113,42 @@ File: .../Instances/json/Customer6/toy.json exists.
 invalid capacity
 invalid time window: too late to serve customer 6
 Please upload a valid solution!
+```
+## File Structure
+```
+├── Instances/
+│   ├── json/
+│   │   ├── Customer100
+│   │   │   ├──<Instance name>.json
+│   │   │   └── ...
+│   │   ├── Customer200
+│   │   │   ├──<Instance name>.json
+│   │   │   └── ...
+│   │   ├── Customer400
+│   │   │   ├──<Instance name>.json
+│   │   │   └── ...
+│   ├── text/
+│   │   ├── Customer100
+│   │   │   ├──<Instance name>.txt
+│   │   │   └── ...
+│   │   ├── Customer200
+│   │   │   ├──<Instance name>.txt
+│   │   │   └── ...
+│   │   ├── Customer400
+│   │   │   ├──<Instance name>.txt
+│   │   │   └── ...
+├── vrptw_evaluator/
+│   ├── __init__.py
+│   ├── core.py
+│   └── utils.py
+├── evaluator.py
+├── Solutions
+│   ├── toy_solution.txt
+│   ├── toy_solution_wrong.txt
+├── requirements.txt
+├── README.md
+├── LICENSE
+└── logo.png
 ```
 
 ## Organisers
