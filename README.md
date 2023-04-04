@@ -108,7 +108,7 @@ Instance size:  6  Instance name:  toy  Solution path:  toy_solution_infeasible.
 File: .../Instances/json/Customer6/toy.json exists.
 invalid capacity
 invalid time window: too late to serve customer 6
-Please upload a valid solution!
+Please upload a feasible solution!
 ```
 ## File Structure
 ```
