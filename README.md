@@ -139,9 +139,7 @@ Please upload a feasible solution!
 ├── Solutions
 │   ├── toy_solution.txt
 │   ├── toy_solution_wrong.txt
-├── requirements.txt
 ├── README.md
-├── LICENSE
 └── logo.png
 ```
 
